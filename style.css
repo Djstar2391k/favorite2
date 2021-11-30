@@ -1,0 +1,66 @@
+body{
+    margin : 0;
+    padding-top : 810px;
+    text-align:   center;
+}
+img{
+    width: 210px;
+    margin-bottom : 51px;
+    border-radius : 51%;
+}
+#welcome{
+    position: absolute;
+    z-index: 9;
+    height: 810px;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    background-color: aqua;
+    display : table;
+    height : 100%;
+    width: 100%;
+    
+}
+.welcome_div{
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    
+}
+#bio{
+    padding: 51px;
+    font-family: 'MonteCarlo', cursive;
+}
+p{
+    max-width:501px;
+    margin:25px auto;
+    font-size:17px;
+}
+.menu{
+    list-style: none;
+    
+    position: fixed;
+    width: 100%;
+    top:0px;
+    margin-top: 0;
+    z-index: 10;
+    cursor: pointer;
+    font-family: 'MonteCarlo', cursive;
+}
+a{
+  text-shadow: 2px 2px grainsboro;
+   
+}
+.links{
+    color: black;
+    font-size:31px;
+    padding-right: 25px;
+    padding-left: 33px;
+display: inline;
+}
+.links:hover{
+    font-size: 50px;
+    text-decoration: underline;
+    
+}
